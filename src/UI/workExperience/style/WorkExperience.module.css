@@ -1,0 +1,26 @@
+.work_experience {
+  margin-top: 1em;
+  padding: 0 2em;
+  text-align: left;
+}
+
+.work_experience > h2 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0 0 0.3em 0;
+}
+
+.work_experience > h2 span {
+  text-transform: capitalize;
+}
+
+.work_experience div h2 {
+  text-decoration: underline;
+  padding: 0 0 0.3em 0;
+  font-size: 1rem;
+}
+
+.work_experience div ul li {
+  padding: 0.2em 0;
+}
+/*# sourceMappingURL=WorkExperience.module.css.map */

@@ -1,0 +1,29 @@
+.wrapper {
+  width: 95%;
+  margin: auto;
+  form {
+    display: grid;
+    grid-template-columns: auto;
+    div {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-between;
+      padding: 0.2em 1em;
+      input,
+      textarea {
+        font-size: 1rem;
+        padding: 0.2em 0.5em;
+        width: 15em;
+      }
+      textarea {
+        height: 7em;
+      }
+    }
+    > input {
+      padding: 0.2em 1em;
+      margin: 0.5em 0;
+      width: 10em;
+      justify-self: right;
+    }
+  }
+}

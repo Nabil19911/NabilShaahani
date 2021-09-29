@@ -1,0 +1,42 @@
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.wrapper form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.wrapper form div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em 1em;
+}
+
+.wrapper form div input,
+.wrapper form div textarea {
+  font-size: 1rem;
+  padding: 0.2em 0.5em;
+  width: 15em;
+}
+
+.wrapper form div textarea {
+  height: 7em;
+}
+
+.wrapper form > input {
+  padding: 0.2em 1em;
+  margin: 0.5em 0;
+  width: 10em;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+/*# sourceMappingURL=Form.module.css.map */

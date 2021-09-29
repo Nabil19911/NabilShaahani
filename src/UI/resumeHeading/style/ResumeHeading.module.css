@@ -1,0 +1,10 @@
+.wrapper {
+  background: white;
+  color: #212835;
+}
+
+.wrapper h2 {
+  padding: 5px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=ResumeHeading.module.css.map */

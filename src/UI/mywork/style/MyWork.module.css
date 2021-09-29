@@ -1,0 +1,84 @@
+.wrapper {
+  overflow: hidden;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+.wrapper img {
+  width: 100%;
+  -webkit-filter: grayscale(30%);
+          filter: grayscale(30%);
+}
+
+.wrapper .detail_wrapper {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #212835;
+  background-color: white;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .detail_wrapper .detail {
+  width: 100%;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.wrapper .detail_wrapper .detail h1 {
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+.wrapper .detail_wrapper .detail .skill {
+  margin-bottom: 0.5em;
+}
+
+.wrapper .detail_wrapper .detail .skill span {
+  padding: 0.5em;
+}
+
+.wrapper .detail_wrapper .detail .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .detail_wrapper .detail .links a {
+  text-transform: uppercase;
+}
+
+.wrapper .detail_wrapper:hover {
+  opacity: 1;
+}
+
+.wrapper .detail_wrapper:hover .detail {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=MyWork.module.css.map */

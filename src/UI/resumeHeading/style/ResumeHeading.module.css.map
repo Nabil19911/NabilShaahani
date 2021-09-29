@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,OAAO;CAKf;;AAPD,AAGE,QAHM,CAGN,EAAE,CAAC;EACD,OAAO,EAAE,GAAG;EACZ,cAAc,EAAE,UAAU;CAC3B",
+    "sources": [
+        "ResumeHeading.module.scss"
+    ],
+    "names": [],
+    "file": "ResumeHeading.module.css"
+}

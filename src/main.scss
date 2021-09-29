@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./variables";
+
+body {
+  background-color: $primeColor;
+  color: white;
+  width: 100%;
+  margin: auto;
+  max-width: 1440px;
+}

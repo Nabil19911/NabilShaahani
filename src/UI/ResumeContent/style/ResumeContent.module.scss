@@ -1,0 +1,11 @@
+.wrapper {
+  text-align: left;
+  > div {
+    margin: 0 1em 1em 1em;
+    border-bottom: 1px solid white;
+    p {
+      padding-bottom: 10px;
+      font-size: 1.3rem;
+    }
+  }
+}

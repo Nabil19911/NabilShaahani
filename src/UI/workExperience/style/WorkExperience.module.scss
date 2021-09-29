@@ -1,0 +1,25 @@
+.work_experience {
+  margin-top: 1em;
+  padding: 0 2em;
+  text-align: left;
+  > h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0 0 0.3em 0;
+    span {
+      text-transform: capitalize;
+    }
+  }
+  div {
+    h2 {
+      text-decoration: underline;
+      padding: 0 0 0.3em 0;
+      font-size: 1rem;
+    }
+    ul {
+      li {
+        padding: 0.2em 0;
+      }
+    }
+  }
+}

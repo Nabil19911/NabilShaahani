@@ -1,0 +1,40 @@
+@import "../../../reset";
+.container {
+  height: 100%;
+  margin-bottom: 2em;
+  @include verticalMobile {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+  @include windows {
+    height: 100vh;
+    width: 75%;
+    margin: auto;
+  }
+}
+.image_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 75%;
+    filter: grayscale(30%);
+  }
+}
+.detail_wrapper {
+  margin: 0.5em;
+  .detail {
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    p {
+      font-size: 1.05rem;
+      &:first-child {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin verticalMobile {
+  @media only screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin windows {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}

@@ -1,0 +1,75 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container .wrapper {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.container .wrapper h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 1.5rem;
+}
+
+@media only screen and (orientation: landscape) {
+  .container .wrapper h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .wrapper h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.container .wrapper h2 {
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+@media only screen and (orientation: landscape) {
+  .container .wrapper h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .wrapper h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.container .wrapper h2::before {
+  content: "<";
+}
+
+.container .wrapper h2::after {
+  content: "/>";
+}
+
+.container .wrapper img {
+  width: 3em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .wrapper img {
+    width: 6em;
+  }
+}
+/*# sourceMappingURL=Hero.module.css.map */

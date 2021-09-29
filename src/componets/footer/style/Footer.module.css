@@ -1,0 +1,22 @@
+.container {
+  height: 15vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container a {
+  color: white;
+}
+
+.container p {
+  padding: 0.2em;
+}
+/*# sourceMappingURL=Footer.module.css.map */
