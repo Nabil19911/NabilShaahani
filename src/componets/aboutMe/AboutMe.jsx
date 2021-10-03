@@ -15,13 +15,15 @@ const AboutMe = () => {
         <Heading>About me</Heading>
         <div className={AboutMeStyle.detail}>
           <p>
-            Hey everyone, I would like to introduce myself as a passionated
-            self-taught frontend developer.
+            I am a self-taught front-end developer with a passion for solving
+            problems and a quick learner willing to adapt to new technologies
+            better suited for business needs.
           </p>
           <p>
             After working as IT technician for 6 years I found my passion for
-            coding, since then I have been working on my skill and I enjoying
-            coding every day.
+            coding. From the movement, I produce 'Hello World' from my computer
+            I know this is what I want to do rest of my life, since then I have
+            been working on my skill and I enjoying coding every single day.
           </p>
         </div>
       </div>
