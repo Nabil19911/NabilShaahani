@@ -4,7 +4,12 @@ import ResumeHeading from "../../UI/resumeHeading/ResumeHeading";
 import WorkExperience from "../../UI/workExperience/WorkExperience";
 import ResumeStyle from "./style/Resume.module.css";
 
-const programmingSkill = ["Html5", "CSS3", "SaSS", "JavaScrip", "React"];
+const programmingSkill = [
+  "Html5",
+  "CSS3 (SaSS)",
+  "JavaScrip (React)",
+  "Python",
+];
 const designSkill = ["Figma", "Photoshop"];
 
 const tech = [

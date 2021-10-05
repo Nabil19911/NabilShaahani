@@ -97,4 +97,12 @@ export const portfolioData = [
     demoLink: "https://nabil19911.github.io/Frontend-mentor-preview-card/",
     sourceLink: "https://github.com/Nabil19911/Frontend-mentor-preview-card",
   },
+  {
+    imageSrc: "../asserts/portfolio/Intro-component with-sign-up-form.png",
+    heading: "Intro component",
+    skills: ["React JS", "Style Components"],
+    demoLink: "https://intro-component-withsignup-form-master.netlify.app/",
+    sourceLink:
+      "https://github.com/Nabil19911/Frontend-Ment-Intro-component-with-sign-up-form",
+  },
 ];
