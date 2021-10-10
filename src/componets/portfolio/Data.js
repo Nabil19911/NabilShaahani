@@ -107,7 +107,7 @@ export const portfolioData = [
   },
   {
     imageSrc: "../asserts/portfolio/Comming-Soon-page.png",
-    heading: "Comming Soon.png",
+    heading: "Ping Comming Soon",
     skills: ["React JS", "Style Components"],
     demoLink: "https://ping-commingsoon.netlify.app/",
     sourceLink: "https://github.com/Nabil19911/Ping-coming-soon-page",
