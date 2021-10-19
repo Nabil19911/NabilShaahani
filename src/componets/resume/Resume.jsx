@@ -21,7 +21,6 @@ const tech = [
 const sales = [
   "Selling products and services using solid argument to prospective customers.",
   "Estabilish, develop and maintain positive business and customer relationship.",
-  "Suplly mannagement with report on customer needs, problems, interests, competitive activities, and potential for new products and services.",
 ];
 
 const Resume = () => {
