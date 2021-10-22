@@ -112,4 +112,12 @@ export const portfolioData = [
     demoLink: "https://ping-commingsoon.netlify.app/",
     sourceLink: "https://github.com/Nabil19911/Ping-coming-soon-page",
   },
+  {
+    imageSrc: "../asserts/portfolio/single-page-grid.png",
+    heading: "Single Page Grid",
+    skills: ["React JS", "Style Components"],
+    demoLink: "https://single-price-grid-component-master12.netlify.app",
+    sourceLink:
+      "https://github.com/Nabil19911/single-price-grid-component-master",
+  },
 ];

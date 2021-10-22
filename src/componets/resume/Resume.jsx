@@ -7,6 +7,8 @@ import ResumeStyle from "./style/Resume.module.css";
 const programmingSkill = [
   "Html5",
   "CSS3 (SaSS)",
+  "Bootstrap-5",
+  "Jquery",
   "JavaScrip (React)",
   "Python",
 ];
