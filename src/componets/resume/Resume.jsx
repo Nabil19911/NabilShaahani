@@ -12,7 +12,7 @@ const programmingSkill = [
   "JavaScrip (React)",
   "Python",
 ];
-const designSkill = ["Figma", "Photoshop"];
+const designSkill = ["Figma", "Photoshop", "Illustrato"];
 
 const tech = [
   "Installing software and hardwares.",
@@ -31,8 +31,8 @@ const Resume = () => {
       <Heading>resume</Heading>
       <div className={ResumeStyle.wrapper}>
         <div className={ResumeStyle.skills}>
-          <ResumeContent heading="programming skill" data={programmingSkill} />
-          <ResumeContent heading="design skill" data={designSkill} />
+          <ResumeContent heading="Technical skills" data={programmingSkill} />
+          <ResumeContent heading="design skills" data={designSkill} />
         </div>
         <div className={ResumeStyle.workExperience__wrapper}>
           <ResumeHeading>Work Experiences</ResumeHeading>
