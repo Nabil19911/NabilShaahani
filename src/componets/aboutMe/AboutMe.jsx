@@ -20,10 +20,11 @@ const AboutMe = () => {
             better suits for the business needs.
           </p>
           <p>
-            After working as an IT technician for six years, I found my passion
+            After working as an IT technician for 6+ years, I found my passion
             for coding. From the movement, I produce 'Hello World' from my
             computer, I know this is what I want to do rest of my life. Since
-            then, I have been working on my skill and enjoying every single day.
+            then, I have been working on my skills and enjoying coding every
+            single day.
           </p>
         </div>
       </div>
