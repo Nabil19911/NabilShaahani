@@ -7,10 +7,10 @@ import ResumeStyle from "./style/Resume.module.css";
 const programmingSkill = [
   "Html5",
   "CSS3 (SaSS)",
-  "Bootstrap-5",
+  "Bootstrap 4+",
   "Jquery",
-  "JavaScrip (React)",
-  "Python",
+  "JavaScrip (React, Redux, Next)",
+  "Python (Flask)",
 ];
 const designSkill = ["Figma", "Photoshop", "Illustrato"];
 
