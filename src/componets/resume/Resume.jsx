@@ -12,7 +12,7 @@ const programmingSkill = [
   "JavaScrip (React, Redux, Next)",
   "Python (Flask)",
 ];
-const designSkill = ["Figma", "Photoshop", "Illustrato"];
+const designSkill = ["Figma", "Photoshop", "Illustrator"];
 
 const tech = [
   "Installing software and hardwares.",
@@ -25,6 +25,7 @@ const sales = [
   "Estabilish, develop and maintain positive business and customer relationship.",
   "Maintaining positive business relationships to ensure future sales.",
 ];
+const web = ["Developing REACT components with MUI library and StoryBook.js"];
 
 const Resume = () => {
   return (
@@ -39,15 +40,22 @@ const Resume = () => {
           <ResumeHeading>Work Experiences</ResumeHeading>
           <WorkExperience
             name={{
-              position: "Computer technician",
-              company: "Night Vision Gaming center ltd",
+              position: "Font-End Developer",
+              company: "WXLLPLACE",
+            }}
+            data={web}
+          />
+          <WorkExperience
+            name={{
+              position: "Computer Technician",
+              company: "Night Vision Gaming Center LTD",
             }}
             data={tech}
           />
           <WorkExperience
             name={{
               position: "Sales Reprasentive",
-              company: "Ceylon Biscut ltd",
+              company: "Ceylon Biscut LTD",
             }}
             data={sales}
           />
