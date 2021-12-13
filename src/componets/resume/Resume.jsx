@@ -41,7 +41,7 @@ const Resume = () => {
           <WorkExperience
             name={{
               position: "Font-End Developer",
-              company: "WXLLPLACE",
+              company: "WxllSpace",
             }}
             data={web}
           />
